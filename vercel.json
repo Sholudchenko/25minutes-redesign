@@ -3,6 +3,8 @@
   "outputDirectory": ".",
   "framework": null,
   "rewrites": [
-    { "source": "/razbor", "destination": "/razbor.html" }
+    { "source": "/razbor", "destination": "/razbor.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/blog/:slug", "destination": "/blog/:slug.html" }
   ]
 }
